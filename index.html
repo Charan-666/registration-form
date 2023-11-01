@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+  </head>
+  <body>
+    <h1>📰REGISTRATION FORM</h1>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name 😉 :</th>
+
+            <td><input type="text" name="fname" id="fname" /></td>
+          </tr>
+          <tr>
+            <th>E-mail 📩:</th>
+            <td><input type="email" name="mail" id="mail" /></td>
+          </tr>
+          <tr>
+            <th>Ph.No 🔢:</th>
+            <td><input type="number" name="num" id="num_box" /></td>
+          </tr>
+          <tr>
+            <th>gender🧑/👧:</th>
+            <td><input type="text" name="text" id="gender" /></td>
+          </tr>
+          <tr>
+            <th>Skills 🤹‍♂️:</th>
+            <td><input type="text" name="text" id="skills.." /></td>
+          </tr>
+          <tr>
+            <th>Age 🎠:</th>
+            <td><input type="number" name="age" id="age_box" /></td>
+          </tr>
+          <tr>
+            <th>image 📸:</th>
+            <td>
+              <label for="picture"></label>
+              <input
+                type="file"
+                class="file-upload-input"
+                id="picture"
+                onchange="readURL(
+                this 
+            )"
+                accept="image/*"
+              />
+            </td>
+          </tr>
+        </thead>
+      </table>
+    
+        <button id="entry">Add</button>
+      
+    
+    <br /><br />
+    <br /><br />
+    <table border="4" id="show">
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>EMAIL</th>
+          <th>PH.NO</th>
+          <th>GENDER</th>
+          <th>SKILLS</th>
+          <th>AGE</th>
+          <th>PHOTO</th>
+        </tr>
+      </thead>
+    </table>
+    <br /><br />
+    <br /><br />
+    
+    <script src="script.js"></script>
+  </body>
+</html>

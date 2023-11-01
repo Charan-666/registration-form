@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: aqua;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(7, 7, 7);
+}
+.container {
+  width: 625px;
+  background-color: rgba(34, 32, 32, 0.328);
+  margin: 70px auto 20px;
+  padding: 40px 30px 40px;
+  border-radius: 15px;
+  text-align: left;
+  height: 740px;
+}
+tr {
+  font-size: 18px;
+}
+
+td input {
+  width: 100%;
+  outline: none;
+  border-radius: 20px;
+  padding: 25px;
+  color: rgb(8, 9, 10);
+  border: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+  margin-left: 20px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+#male {
+  margin-right: -10px;
+  margin-left: 40px;
+  width: auto;
+}
+
+#female {
+  margin-right: -10px;
+  margin-left: -40px;
+  width: auto;
+}
+
+tr th {
+  background-color: rgba(58, 79, 72, 0.877);
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 15px;
+  margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+}
+
+#entry:hover {
+  box-shadow: 8px 5px 0 0 rgba(18, 18, 18, 0.422);
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+}
+
+#entry {
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 130px;
+  border-radius: 20px;
+  margin-top: -10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 220px;
+}
+
+#show {
+  margin-right: 100px;
+  margin-left: -500px;
+  width: 1000px;
+}
+
+#show tr th {
+  padding-right: 88px;
+  padding-left: 80px;
+  border-radius: 10px;
+}
+#show td {
+  padding: 20px;
+  background-color: rgba(238, 153, 6, 0.998);
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+}
+table {
+  margin-bottom: 50px;
+}
+table #show {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    padding-right: 25px;
+    padding-right: 40px;
+  }
+  #entry {
+   
+    width: 130px;
+    margin-left: 140px;
+    
+}
+
+#show {
+  margin-right: 10px;
+  margin-left: -11px;
+  width: 200px;
+}
+}
